@@ -4,10 +4,16 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #a00fc8;
+    border: solid 3px #6c054c;
     background-color: #b31489;
+    font-family: 'Franklin Gothic Medium', 'Arial Nar', Arial, sans-serif;
   }
 
   h1{
-    color: rgb(43, 180, 125);
+    color: rgb(242, 36, 149);
   }
+
+#content {
+  background-color: rgb(242, 172, 242);
+
+}
