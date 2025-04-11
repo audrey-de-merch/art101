@@ -1,6 +1,11 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+.dog-photo {
+  margin: 8px;
+  max-width: 200px;
+  border: groove;
+  border-color: rgb(208, 41, 206);
+  
+  border-width: .5cm;
 }
+
