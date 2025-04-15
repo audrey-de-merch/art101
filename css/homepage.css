@@ -1,5 +1,7 @@
 /* this css file will only style the homepage of our site */
-
+body{
+  background-color: rgb(239, 196, 252);
+}
 .dog-photo {
   margin: 8px;
   max-width: 200px;
