@@ -27,6 +27,7 @@ h1 {
   background-color: #d4a8fa;
 }
 
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   font-family:'Courier New', Courier, monospace;
