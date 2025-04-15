@@ -4,19 +4,29 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #6c054c;
-    background-color: #b31489;
+    border: solid 3px #d20baa;
+   
+    background-color: hwb(286 80% 0%);
     font-family: 'Franklin Gothic Medium', 'Arial Nar', Arial, sans-serif;
-    border: dotted; 
+    border: dotted;
+    border-color: #c973e8;
     border-width: .2cm;
+    font-family: 'Courier New', Courier, monospace;
 
   }
 
   h1{
-    color: rgb(242, 36, 149);
+    color: rgb(244, 90, 174);
+    text-indent: 0%;
+    
+    
   }
-
+  h2{
+    color: rgb(244, 103, 181);
+    text-indent: 0%;
+    
+  }
 #content {
-  background-color: rgb(242, 172, 242);
-
+  background-color: rgb(213, 162, 255);
+  text-indent: 20px
 }
