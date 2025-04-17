@@ -2,11 +2,17 @@
 body{
   background-color: rgb(239, 196, 252);
 }
+h1{
+  color: rgb(106, 38, 116)
+}
+h2{
+  color: rgb(186, 54, 206);
+}
 .audrey-pic {
   margin: 8px;
   max-width: 200px;
   border: groove;
-  border-color: rgb(247, 71, 179);
+  border-color: rgb(220, 133, 208);
   float: right;
   border-width: .5cm;
 }

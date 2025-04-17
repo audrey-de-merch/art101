@@ -21,9 +21,9 @@ h1 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
-  border: solid 1px #000000;
+  border: none;
   background-color: #d4a8fa;
 }
 
@@ -33,7 +33,7 @@ h1 {
   font-family:'Courier New', Courier, monospace;
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #6e00ae;
+  border: solid 1px none;
   background-color: #e2b5fe;
 }
 .navbar {
