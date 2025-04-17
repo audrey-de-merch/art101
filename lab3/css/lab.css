@@ -4,7 +4,7 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #000000;
+    border: dotted .2cm rgb(219, 94, 163);
     background-color: #ffb6f5;
   
 }
@@ -14,4 +14,22 @@ h1{
 h2{
   color: #bf35a1;
 }
- 
+ .results_1{
+  margin: 5px;
+  max-width: 400px;
+  border: solid;
+
+  border-color: rgb(194, 136, 249);
+  
+  border-width: .2cm;
+ }
+ .results_2{
+  margin: 5px;
+  max-width: 400px;
+  border: solid;
+
+  border-color: rgb(194, 136, 249);
+  
+  border-width: .2cm;
+ }
+
