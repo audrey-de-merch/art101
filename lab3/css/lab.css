@@ -32,4 +32,12 @@ h2{
   
   border-width: .2cm;
  }
+ .filepic{
+  margin: 5px;
+  max-width: 400px;
+  border: solid;
 
+  border-color: rgb(194, 136, 249);
+  
+  border-width: .2cm;
+ }
