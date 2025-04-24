@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Audrey DeMerchant
+// Date: 4/24/25
 
 // Constants
 
@@ -19,3 +19,24 @@ function main() {
 
 // let's get this party started
 main();
+
+// Create a variable called carName and assign the value "Taurus" to it, then print it.
+//define variables 
+make = "Acura"
+model = "TSX"
+color = "Black"
+year = "2014"
+
+//calculations
+age = 2025 - year 
+
+//Output
+document.writeln("Make: " + make +"<br>");
+document.writeln("Year: " + year+"<br>");
+document.writeln("Color: " + color+"<br>");
+document.writeln("Age: " + age+"<br>");
+
+//Declare a boolean variable ownIt for whether you own it or not.
+ownIt = false
+document.writeln("Car owner: " + ownIt)
+

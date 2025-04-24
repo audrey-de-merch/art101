@@ -4,6 +4,25 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #e9c9f5;
+    background-color: #b9c8f1;
   }
+h1{
+  color: rgb(126, 69, 201);
+}
+h2{
+  color: rgb(83, 123, 175);
+}
+
+.carpic {
+  max-width: 300px;
+  border: none;
+  float:right
+
+
+}
+
+.lab5results{
+
+  max-width: 500px;
+}
