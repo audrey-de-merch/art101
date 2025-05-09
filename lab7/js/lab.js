@@ -32,3 +32,5 @@ myButton.addEventListener('click',
 
 }
   })
+
+  document.body.appendChild(myButton) 
