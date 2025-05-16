@@ -13,6 +13,15 @@ color: rgb(110, 88, 210);
 h2{
 color: rgb(144, 107, 239);
 }
+#challenge{
+  background-color: #c2f3ef;
+  font-family: 'Courier New', Courier, monospace
+}
+#output{
+  background-color: #c2f3ef;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1%
+}
 
 #content {
   margin: 20px;
@@ -20,10 +29,8 @@ color: rgb(144, 107, 239);
   border: none;
   background-color: #a1b8fd;
 }
-
-.special{
- background-color: rgb(69, 161, 204);
- border-style: dotted;
- border-color: aqua;
- border-width: 5px;
+#make-convo{
+  background-color:#35f7e6;
+  border: rgb(119, 24, 141), dotted;
+  font-family: 'Courier New', Courier, monospace;
 }
