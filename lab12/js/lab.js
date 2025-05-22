@@ -4,14 +4,14 @@
  * 
 */
 
-let variants = ["Hoth", "Tatooine", "Naboo", "Alderaan"];
+let variants = ["Hoth", "Tatooine", "Naboo", "Alderaan","Coruscant", "Kamino", "The Death Star"];
 
 function getPlanet(num) {
-  let remainder = num % 4;
+  let remainder = num % 7;
   let planet = variants[remainder];
 
   // Append the text
-  $("#output").append(" you are from the planet " + planet + ".<br>");
+  $("#output").append(" you are from " + planet + ".<br>");
 
   // Define background image paths
   let backgroundImages = {
@@ -19,6 +19,9 @@ function getPlanet(num) {
     "Tatooine": "url('img/tatooine.png')",
     "Alderaan": "url('img/alderaan.png')",
     "Naboo": "url('img/naboo.png')",
+    "Coruscant": "url('img/coruscant.png')",
+    "Kamino": "url('img/Kamino.png')",
+    "The Death Star": "url('img/thedeathstar.png')"
     
   };
 
@@ -38,12 +41,12 @@ function whatHappensOnClick() {
   let data = $("#input").val();
   let dataLength = data.length;
 
-  if (data && dataLength <= 50) {
+  if (data && dataLength <= 15) {
     $("#output").append(data);
     getPlanet(dataLength);
     console.log("There is some data");
-  } else if (dataLength > 50) {
-    $("#output").append("Too much of a name<br>");
+  } else if (dataLength >= 15) {
+    $("#output").append("Just enter your first name<br>");
   }
 }
 
