@@ -5,14 +5,11 @@
 */
 
 let variants = ["Hoth", "Tatooine", "Naboo", "Alderaan","Coruscant", "Kamino", "The Death Star"];
-
 function getPlanet(num) {
   let remainder = num % 7;
   let planet = variants[remainder];
-
   // Append the text
   $("#output").append(" you are from " + planet + ".<br>");
-
   // Define background image paths
   let backgroundImages = {
     "Hoth": "url('img/hoth.png')",
@@ -22,7 +19,6 @@ function getPlanet(num) {
     "Coruscant": "url('img/coruscant.png')",
     "Kamino": "url('img/Kamino.png')",
     "The Death Star": "url('img/thedeathstar.png')"
-    
   };
 
   // Apply the background image
@@ -34,7 +30,6 @@ function getPlanet(num) {
     "padding": "0px"
   });
 }
-
 function whatHappensOnClick() {
   console.log("click");
 
