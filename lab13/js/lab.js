@@ -15,12 +15,12 @@ $(document).ready(function () {
     if (i % 7 === 0) str += "Boom";
 
     if (str === "") {
-      str = i; // If not divisible by 3, 5, or 7
+      str = i; 
     }
 
     oneLongString += str + "<br>";
   }
 
-  // Output everything to the div
+ 
   $("#output").html(oneLongString);
 });

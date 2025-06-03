@@ -1,0 +1,68 @@
+
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#content{
+  background-color: #a579d4a4;
+}
+.minor-section1 {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fde5a3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.minor-section2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9a6c9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.minor-section3 {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #c58ecd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.minor-section4 {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #dcd4f9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+h1{
+color: rgb(0, 0, 0);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+color: rgb(144, 107, 239);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#output{
+  background-color: #bb88fa;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(189, 117, 191);
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  text-align: center;
+  
+}
+#submit{
+
+  background-color: rgb(255, 190, 233);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+#planetInfo {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
